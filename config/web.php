@@ -54,8 +54,8 @@ $config = [
             'rules' => [
                 [
                     'class' => UrlRule::class,
-                    //se for utilizar o controlador de forma simples
-                    //'controller' => ['default'],                    
+                    //se for utilizar o controlador através de modulo e com tcdent
+                    //'controller' => ['api/default'],                    
                     'controller' => ['default'],
                     'pluralize' => false,
                 ],
